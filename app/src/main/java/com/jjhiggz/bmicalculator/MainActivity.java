@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         calculateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(MainActivity.this, "Cool I made this thing popo up by clicking a button", Toast.LENGTH_LONG).show();
             }
         });
 
